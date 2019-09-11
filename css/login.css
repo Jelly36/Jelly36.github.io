@@ -1,0 +1,108 @@
+*{
+    margin:0; padding:0;
+}
+img{
+    border:none; vertical-align:bottom;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+.main{
+    padding-top: 20px;
+    width:1000px;
+    margin:0 auto;
+}
+#loginForm{
+    width:100%;
+    display:inline-block;
+    color:#495c81;
+    height:560px;
+}
+.loginTable{
+    position: relative;
+    margin:0 auto;
+}
+table{
+    border-collapse: collapse;
+    border-spacing:0
+}
+tbody .icon{
+    height:150px;
+}
+.icon img{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.inputNum{
+    height:36px;
+}
+textarea,input{
+    resize:none;
+    outline:none;
+}
+.mobile{
+    border: 0;
+    border-bottom: solid 1px #000;
+    font-size: 18px;
+    width: 265px;
+    height: 34px;
+    background: url(../images/login/phone.png) no-repeat 0px 6px;
+    padding-left: 35px;
+}
+.id_code{
+    border: 0;
+    border-bottom: solid 1px #000;
+    font-size: 18px;
+    width: 265px;
+    height: 34px;
+    float: left;
+    background: url(../images/login/nlcode.png) no-repeat 2px 8px;
+    padding-left: 35px;
+}
+/* 获取验证码按钮 */
+.button_code{
+    border: solid 1px #000;
+    height: 35px;
+    line-height: 34px;
+    width: 110px;
+    font-size: 16px;
+    margin-left: 12px;
+    border-radius: 4px;
+    color: #333;
+    float: right;
+    cursor: pointer;
+    text-align:center;
+}
+.fl{
+    float:left
+}
+.login_bu{
+    border-radius: 4px;
+    font-weight: normal;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border: 0;
+    background: #25292e;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
+.moreLogin{
+    color: #000;
+    font-size: 15px;
+}
+/* 输入框提示 */
+.tipsNum,.tipsPass{
+    width:56px;
+    height:34px;
+    line-height:34px;
+    color:red;
+    font-size:12px;
+    /* border:1px solid red; */
+    display:none;
+}

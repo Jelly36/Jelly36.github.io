@@ -1,0 +1,69 @@
+
+/* 有关良仓二维码  右边固定 */
+.rightQRcode{
+    width:143px;
+    height:450px;
+    position:fixed;
+    right:0;
+    top:110px;
+    z-index:1;
+}
+.closeBtn{
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 19px;
+    right: 15px;
+    z-index: 10;
+    zoom: 1;
+    font-size: 14px;
+    line-height: 14px;
+    background: url(../images/public/closeBtn.png) no-repeat 0 0;
+}
+.qrCodeimg{
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+/* 联系客服 */
+.cusSer{
+    position: fixed;
+    right:25px;
+    bottom:10px;
+    z-index:3
+}
+.cusSer_btn{
+    background-color:#5b799a!important;
+    display: block;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+}
+/* 回到顶部 */
+.backTop{
+    display:block;
+    height:auto;
+    height:60px;
+    position:fixed;
+    left:44px;
+    bottom:44px;
+    cursor:pointer;
+}
+.backTop .top{
+    width:59px;
+    height:59px;
+    display:block;
+    position: relative;
+    background:url("../images/lc/icon.png") no-repeat -20px -813px;
+    opacity:1;
+    z-index:3;
+}
